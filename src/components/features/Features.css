@@ -1,0 +1,64 @@
+.f-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 24px 0px;
+    margin: 0 0 16px;
+}
+
+.f-detail {
+    margin-left: 6.8rem;
+    margin-right: 6.8rem;
+
+}
+
+.f-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.f-col {
+    gap: 1px;
+    width: 306px;
+    height: 282px;
+    padding-top: 20px
+}
+
+.f-col:hover {
+    padding-top: 10px;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 1px 2px rgba(237, 239, 240, 0.386);
+    border-radius: 5px;
+}
+
+.logo-img {
+    font-size: 1rem;
+    color: #6f5de7;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 7px;
+    background-color: #f1f5fd;
+    padding: 16px 13px;
+    margin: 1.2rem 24px;
+
+
+}
+
+.f-content {
+    padding: 24px;
+}
+
+.f-head {
+    font-size: 16px;
+    color: #130122;
+    font-weight: 700;
+}
+
+.f-desc {
+    font-size: 14px;
+    color: #585c7b;
+    font-weight: 400;
+    margin-top: 1rem;
+
+}

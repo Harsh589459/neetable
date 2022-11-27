@@ -1,0 +1,27 @@
+.e-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.e-container img {
+    height: 18px;
+    width: 152px;
+    padding: 18px 20px;
+}
+
+.buy {
+    background-color: #82b440;
+    font-weight: 500;
+    color: #ffffff;
+    border-color: #82b440;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 10px 20px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 8px 20px 8px 20px;
+}

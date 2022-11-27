@@ -1,0 +1,61 @@
+.multi-container {
+    background: url('../../assets/bg-scaled.jpg');
+    color: white;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.col-1 {
+    padding-top: 26.5vh;
+    margin-left: 7.1rem;
+
+}
+
+.col-1-head {
+    margin: 0 0 24px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.col-1-subhead {
+    font-size: 24px;
+    font-weight: 400;
+    color: #bbb9c4
+}
+
+.dark-mode {
+    margin-top: 4rem;
+}
+
+.view-landing {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #bbb9c4
+}
+
+.view-landing img {
+    width: 10px;
+    height: 10px;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: rgba(244, 235, 225, 0.058);
+}
+
+.col-2 img {
+    width: 486px;
+    margin-left: 11.5rem;
+    margin-top: 8rem;
+}
+
+.col-3 img {
+    width: 486px;
+    margin-bottom: 500rem !important;
+}

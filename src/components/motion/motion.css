@@ -1,0 +1,28 @@
+.motion-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 130px;
+    gap: 50px;
+    padding: 48px 12px 0px;
+}
+
+.m-box {
+    padding: 14px 50px;
+
+}
+
+.m-box:hover {
+    padding: 10px 50px 14px 50px;
+    box-shadow: 0px 0px 7px #e3eaed;
+    transition: all 0.3s;
+
+}
+
+.m-heading {
+    text-align: center;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: 500;
+    color: #585c7b;
+}
