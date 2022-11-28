@@ -6,10 +6,16 @@ import Motion from './components/motion/motion';
 import Landing from './components/LandingPages/landing';
 import Features from './components/features/Features';
 import Envato from './components/envato/envato';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
+
+
   return (
-    <div>
+
+
+    <div className='App' id='light'>
       <div className='part-1'>
         <div className='fixed'>
           <Envato />
@@ -22,7 +28,11 @@ function App() {
       <Landing />
       <Features />
 
+      <hr style={{ marginTop: 80 }} />
+      <Footer />
+
     </div>
+
   )
 }
 

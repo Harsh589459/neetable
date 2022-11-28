@@ -18,6 +18,11 @@
     margin-right: 7px;
 }
 
+.dropdown ul img {
+    width: 150px;
+    height: 400px;
+}
+
 .nav-logo span {
     font-size: 22px;
     font-weight: 700;
@@ -90,4 +95,32 @@
 
 .dropdown:hover .dropbtn .d-img {
     color: white;
+}
+
+.nav-light-dark {
+    margin-top: 20px;
+    margin-left: 30rem;
+}
+
+.nav-light-dark img {
+    width: 6rem;
+    height: 2.5rem;
+}
+
+.cart-btn {
+    border: none;
+    background-color: #6366f1;
+    color: #f9f9f9;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-logo {
+    padding-right: 5px;
+    font-weight: 400;
 }

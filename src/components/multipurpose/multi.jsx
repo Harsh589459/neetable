@@ -4,9 +4,13 @@ import './multi.css';
 import darkmode from '../../assets/darkmode (1).svg';
 import col1 from '../../assets/c1-1.png'
 import c2 from '../../assets/c2.png'
+
+
+
+
 function Multi() {
     return (
-        <div className="multi-container">
+        <div className="multi-container " >
             <div className="col-1">
                 <div className="col-1-head">
                     Silicon
@@ -23,13 +27,15 @@ function Multi() {
                 </div>
             </div>
             <div className="col-2">
+
+
                 <img src={col1} alt='' />
             </div>
 
             <div className="col-3">
                 <img src={c2} alt='' />
             </div>
-        </div>
+        </div >
     )
 }
 

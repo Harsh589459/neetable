@@ -1,7 +1,11 @@
 import React from 'react'
 import silogo from '../../assets/silogo.svg'
 import dd from '../../assets/dd.png';
+import ff from '../../assets/ff.jpeg'
 import './Navbar.css';
+import darkmode from '../../assets/darkmode (1).svg';
+import { BiCart } from "react-icons/bi"
+
 
 function Navbar() {
     return (
@@ -17,6 +21,9 @@ function Navbar() {
                             <div className="dropbtn" style={{ color: '#4d5171' }}>
                                 Landings <img src={dd} alt='' />
                                 < div className="dropdown-content">
+                                    <ul>
+                                        <img src={ff} />
+                                    </ul>
                                     <ul>
                                         <li>Template Intro Pages</li>
                                         <li>Mobile App Showcase</li>
@@ -121,7 +128,15 @@ function Navbar() {
                         </div>
 
                     </div>
+                    <div className="nav-light-dark">
+                        <img src={darkmode} />
+                    </div>
+                    <button className="cart-btn"><i className="cart-logo"><BiCart /></i>Buy now</button>
+
                 </div>
+
+
+
             </div>
         </div >
     )

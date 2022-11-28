@@ -26,8 +26,8 @@
 }
 
 .f-col:hover {
-    padding-top: 10px;
-    transition: all 0.3s;
+    padding-top: 15px;
+    transition: all 0.5s;
     box-shadow: 0px 0px 1px 2px rgba(237, 239, 240, 0.386);
     border-radius: 5px;
 }

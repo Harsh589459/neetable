@@ -1,5 +1,5 @@
 .multi-container {
-    background: url('../../assets/bg-scaled.jpg');
+    background-image: url('../../assets/bg-scaled.jpg');
     color: white;
     height: 100vh;
     display: flex;
@@ -47,6 +47,7 @@
     border-radius: 50%;
     color: #ffffff;
     background-color: rgba(244, 235, 225, 0.058);
+    overflow: hidden;
 }
 
 .col-2 img {
