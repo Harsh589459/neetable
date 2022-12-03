@@ -5,6 +5,20 @@ import darkmode from '../../assets/darkmode (1).svg';
 import col1 from '../../assets/c1-1.png'
 import c2 from '../../assets/c2.png'
 
+function handleScroll() {
+    const im1 = document.querySelector('.col-2');
+    const im2 = document.querySelector('.col-3');
+    const scrolled = window.scrollY;
+
+    im1.style.marginTop = `${90 - scrolled * 0.3}px`;
+    im2.style.marginTop = `${-179 + scrolled * 0.35}px`;
+
+
+}
+
+
+window.addEventListener('scroll', handleScroll);
+
 
 
 

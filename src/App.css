@@ -3,3 +3,22 @@
     width: 100vw;
     box-shadow: 0 0.275rem 0.75rem -0.0625rem rgb(19 16 34 / 6%);
 }
+
+.top-btn {
+    padding: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(221, 235, 221);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}

@@ -39,7 +39,7 @@ function Navbar() {
                                         <li>Medical</li>
 
                                     </ul>
-                                    <ul>
+                                    <ul style={{ paddingRight: '1rem' }}>
                                         <li>IT(Software)&nbsp;Company</li>
                                         <li>Conference</li>
                                         <li>Digital Agency</li>
@@ -58,10 +58,10 @@ function Navbar() {
                                 Pages <img src={dd} alt='' className='d-img' />
                                 <div className="dropdown-content">
                                     <ul>
-                                        <li>About</li>
+                                        <li style={{ fontWeight: 700 }}>About</li>
                                         <li>About v.1</li>
                                         <li>About v.2</li>
-                                        <li>Services</li>
+                                        <li style={{ fontWeight: 700 }}>Services</li>
                                         <li>Services v.1</li>
                                         <li>Services v.2</li>
                                         <li>ServiceDetails&nbsp;v.1</li>
@@ -70,7 +70,7 @@ function Navbar() {
 
                                     </ul>
                                     <ul>
-                                        <li>Blog</li>
+                                        <li style={{ fontWeight: 700 }}>Blog</li>
                                         <li>List&nbsp;View&nbsp;with&nbsp;Sidebar</li>
                                         <li>Grid View with Sidebar</li>
                                         <li>List View no Sidebar</li>
@@ -80,14 +80,14 @@ function Navbar() {
                                         <li>Podcast</li>
 
                                     </ul>
-                                    <ul>
-                                        <li>Pricing</li>
+                                    <ul style={{ paddingRight: '2rem' }}>
+                                        <li style={{ fontWeight: 700 }}>Pricing</li>
                                         <li>Pricing&nbsp;Pages</li>
-                                        <li>Contacts</li>
+                                        <li style={{ fontWeight: 700 }}>Contacts</li>
                                         <li>Contacts v.1</li>
                                         <li>Contacts v.2</li>
                                         <li>Contacts v.3</li>
-                                        <li>Speciality</li>
+                                        <li style={{ fontWeight: 700 }}>Speciality</li>
                                         <li>404 Error v.1</li>
                                         <li>404 Error v.2</li>
                                     </ul>
@@ -102,7 +102,7 @@ function Navbar() {
                             <div className="dropbtn">
                                 Portfolio <img src={dd} alt='' />
                                 <div className="dropdown-content">
-                                    <ul>
+                                    <ul style={{ padding: 10 }}>
                                         <li>Grid View</li>
                                         <li>List View</li>
 
@@ -128,9 +128,21 @@ function Navbar() {
                         </div>
 
                     </div>
-                    <div className="nav-light-dark">
-                        <img src={darkmode} />
+
+                    <div className='toggle'>
+                        <div className="mode">
+                            <span>Light</span>
+                            <div className='toggle-switch'>
+                                <label >
+                                    <input type="checkbox" />
+                                    <span className='slider'></span>
+                                </label>
+                            </div>
+                            <span>Dark</span>
+                        </div>
                     </div>
+
+
                     <button className="cart-btn"><i className="cart-logo"><BiCart /></i>Buy now</button>
 
                 </div>

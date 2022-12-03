@@ -53,10 +53,10 @@
 .col-2 img {
     width: 486px;
     margin-left: 11.5rem;
-    margin-top: 8rem;
 }
 
 .col-3 img {
     width: 486px;
+    margin-top: 8rem;
     margin-bottom: 500rem !important;
 }
